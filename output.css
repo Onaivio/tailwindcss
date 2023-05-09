@@ -1122,34 +1122,6 @@ input:checked + .toggle-bg {
   order: 9999;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
-.col-span-5 {
-  grid-column: span 5 / span 5;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
-}
-
-.col-start-4 {
-  grid-column-start: 4;
-}
-
-.row-span-3 {
-  grid-row: span 3 / span 3;
-}
-
-.row-span-4 {
-  grid-row: span 4 / span 4;
-}
-
-.row-start-2 {
-  grid-row-start: 2;
-}
-
 .-m-4 {
   margin: -1rem;
 }
@@ -1226,19 +1198,14 @@ input:checked + .toggle-bg {
   margin-bottom: 1.25rem;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .my-52 {
   margin-top: 13rem;
   margin-bottom: 13rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .-ml-20 {
@@ -1375,6 +1342,10 @@ input:checked + .toggle-bg {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
 }
 
 .block {
@@ -1800,10 +1771,6 @@ input:checked + .toggle-bg {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
-}
-
-.grid-rows-5 {
-  grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 
 .grid-rows-2 {
@@ -3135,15 +3102,6 @@ body{
     margin-right: 1.25rem;
   }
 
-  .md\:my-52 {
-    margin-top: 13rem;
-    margin-bottom: 13rem;
-  }
-
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .md\:ml-24 {
     margin-left: 6rem;
   }
@@ -3174,6 +3132,10 @@ body{
 
   .md\:w-3\/12 {
     width: 25%;
+  }
+
+  .md\:w-8\/12 {
+    width: 66.666667%;
   }
 
   .md\:max-w-full {
@@ -3214,9 +3176,19 @@ body{
     padding-right: 2.5rem;
   }
 
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .md\:px-8 {
@@ -3227,11 +3199,6 @@ body{
   .md\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
-
-  .md\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .md\:pl-16 {
@@ -3284,11 +3251,6 @@ body{
     margin-right: 0px;
   }
 
-  .lg\:my-52 {
-    margin-top: 13rem;
-    margin-bottom: 13rem;
-  }
-
   .lg\:my-72 {
     margin-top: 18rem;
     margin-bottom: 18rem;
@@ -3325,6 +3287,10 @@ body{
 
   .lg\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .lg\:ml-44 {
+    margin-left: 11rem;
   }
 
   .lg\:block {
@@ -3373,10 +3339,6 @@ body{
 
   .lg\:max-w-\[50rem\] {
     max-width: 50rem;
-  }
-
-  .lg\:max-w-md {
-    max-width: 28rem;
   }
 
   .lg\:max-w-screen-xl {
@@ -3431,6 +3393,11 @@ body{
     padding: 0px;
   }
 
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -3479,11 +3446,6 @@ body{
   .lg\:py-2\.5 {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
-  }
-
-  .lg\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg\:pb-20 {
