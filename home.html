@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="canonical" href="coniasoft.com" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ConiaSoft Accounting. Landing Page</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg" />
+  <meta name="theme-color" content="#ffffff" />
+  <link href="./output.css" rel="stylesheet" />
+</head>
+
+<body class="bg-[#F4FAFF] font-poppins">
+  <main>
+    <!-- Navbar -->
+    <div class="bg-white fixed w-full z-50">
+      <div class="px-5 py-5 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-24">
+        <div class="relative flex items-center justify-between">
+          <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
+            <img src="./images/logo.svg" height="10" alt="" class="w-[7vmin]">
+
+          </a>
+          <ul class="hidden items-center space-x-8 lg:flex">
+            <li>
+              <a href="/" aria-label="Our product" title="Our product"
+                class="font-medium tracking-wide text-primary transition-colors duration-200 border border-primary py-2 px-4 rounded-lg">HOME</a>
+            </li>
+            <li>
+              <a href="/" aria-label="Our product" title="Our product"
+                class="font-medium tracking-wide text-primary transition-colors duration-200 ">ABOUT US</a>
+            </li>
+            <li>
+              <a href="/" aria-label="Product pricing" title="Product pricing"
+                class="font-medium tracking-wide text-primary transition-colors duration-200 ">PRODUCT</a>
+            </li>
+            <li>
+              <a href="/" aria-label="About us" title="About us"
+                class="font-medium tracking-wide text-primary transition-colors duration-200 ">PLAN</a>
+            </li>
+            <li>
+              <a href="/" aria-label="About us" title="About us"
+                class="font-medium tracking-wide text-primary transition-colors duration-200 ">GALLERY</a>
+            </li>
+            <li>
+              <a href="/" aria-label="About us" title="About us"
+                class="font-medium tracking-wide text-primary transition-colors duration-200 ">CONTACT</a>
+            </li>
+            <li>
+              <a href="/"
+                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-primary transition duration-200 rounded shadow-md bg-secondary hover:bg-text_primary hover:text-white focus:shadow-outline focus:outline-primary"
+                aria-label="Sign up" title="Sign up">
+                ACCOUNTANT
+              </a>
+            </li>
+          </ul>
+          <!-- <ul class="hidden items-center space-x-8 lg:flex">
+            <li>
+              <a
+                href="/"
+                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary hover:bg-transparent hover:border-bg-secondary focus:shadow-outline focus:outline-none"
+                aria-label="Sign up"
+                title="Sign up"
+              >
+                ACCOUNTANT
+              </a>
+            </li> -->
+          </ul>
+          <!-- Mobile menu -->
+          <div class="lg:hidden">
+            <button aria-label="Open Menu" title="Open Menu"
+              class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-blue-50 focus:bg-blue-50">
+              <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z">
+                </path>
+                <path fill="currentColor" d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"></path>
+                <path fill="currentColor" d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z">
+                </path>
+              </svg>
+            </button>
+            <!-- Mobile menu dropdown  -->
+            <!-- <div class="absolute top-0 left-0 w-full">
+                  <div class="p-5 bg-white border rounded shadow-sm">
+                    <div class="flex items-center justify-between mb-4">
+                      <div>
+                        <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
+                          <svg class="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
+                            <rect x="3" y="1" width="7" height="12"></rect>
+                            <rect x="3" y="17" width="7" height="6"></rect>
+                            <rect x="14" y="1" width="7" height="6"></rect>
+                            <rect x="14" y="11" width="7" height="12"></rect>
+                          </svg>
+                          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span>
+                        </a>
+                      </div>
+                      <div>
+                        <button aria-label="Close Menu" title="Close Menu" class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                          <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                            <path
+                              fill="currentColor"
+                              d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <nav>
+                      <ul class="space-y-4">
+                        <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-primary transition-colors duration-200 ">Product</a></li>
+                        <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-primary transition-colors duration-200 ">Features</a></li>
+                        <li><a href="/" aria-label="Product pricing" title="Product pricing" class="font-medium tracking-wide text-primary transition-colors duration-200 ">Pricing</a></li>
+                        <li><a href="/" aria-label="About us" title="About us" class="font-medium tracking-wide text-primary transition-colors duration-200 ">About us</a></li>
+                        <li>
+                          <a
+                            href="/"
+                            class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-accent-400 hover:bg-blue-accent-700 focus:shadow-outline focus:outline-none"
+                            aria-label="Sign up"
+                            title="Sign up"
+                          >
+                            Sign up
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div> -->
+            <!-- Mobile menu dropdown  -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <!-- BR -->
+    <!-- Hero Section -->
+    <div class="pt-32">
+
+      <div class="px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full md:px-24 lg:px-32
+             lg:py-18">
+        <div class="flex flex-col items-center justify-between lg:flex-row">
+          <div class="hidden absolute bg-white w-96  -top-36 -left-24 p-[28rem] lg:block -z-10 overflow-hidden"
+            style="clip-path: circle(50% at 50% 50%);"></div>
+          <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-8 lg:max-w-[50rem]">
+            <div class="xl:ml-12">
+              <h1 class="  max-w-xl text-primary text-[18px] lg:text-[20px] font-medium leading-none tracking-tight  ">
+                FIVE STAR SERVICE</h1>
+              <h1
+                class="  max-w-2xl mb-4 text-primary text-[50px] lg:text-[60px] font-bold leading-none tracking-tight  ">
+                GUARANTEED</h1>
+              <div class="h-24 w-[419px]">
+                <p class=" max-w-2xl mb-10 text-sm text-primary lg:mb-8 md:text-2xl lg:text-lg ">Your
+                  one-stop
+                  finance empower platform. Manage all your business expenses with our superfast app. </p>
+              </div>
+              <div class=" space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+                <a href="/signup.html"
+                  class="text-primary border border-primary bg-white hover:bg-slate-300 focus:ring-4 focus:ring-primary-300 px-6 py-3 rounded-lg">
+                  Read More</a>
+                <a href="/signup.html"
+                  class="text-primary border border-primary bg-white hover:bg-slate-300 focus:ring-4 focus:ring-primary-300 px-6 py-3 rounded-lg">
+                  Register</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="w-full max-w-xl lg:max-w-[50rem] xl:px-8">
+            <div class="">
+              <img src="/images/hero.png" alt="">
+              <!-- <h3
+                    class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl"
+                  >
+                    Sign up for updates
+                  </h3>
+                  <form>
+                    <div class="mb-1 sm:mb-2">
+                      <label
+                        for="firstName"
+                        class="inline-block mb-1 font-medium"
+                        >First name</label
+                      >
+                      <input
+                        placeholder="John"
+                        required=""
+                        type="text"
+                        class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                        id="firstName"
+                        name="firstName"
+                      />
+                    </div>
+                    <div class="mb-1 sm:mb-2">
+                      <label
+                        for="lastName"
+                        class="inline-block mb-1 font-medium"
+                        >Last name</label
+                      >
+                      <input
+                        placeholder="Doe"
+                        required=""
+                        type="text"
+                        class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                        id="lastName"
+                        name="lastName"
+                      />
+                    </div>
+                    <div class="mb-1 sm:mb-2">
+                      <label for="email" class="inline-block mb-1 font-medium"
+                        >E-mail</label
+                      >
+                      <input
+                        placeholder="john.doe@example.org"
+                        required=""
+                        type="text"
+                        class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                        id="email"
+                        name="email"
+                      />
+                    </div>
+                    <div class="mt-4 mb-2 sm:mb-4">
+                      <button
+                        type="submit"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-accent-400 hover:bg-blue-accent-700 focus:shadow-outline focus:outline-none"
+                      >
+                        Subscribe
+                      </button>
+                    </div>
+                    <p class="text-xs text-gray-600 sm:text-sm">
+                      We respect your privacy. Unsubscribe at any time.
+                    </p>
+                  </form> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Hero Section -->
+    <div class="my-32"></div>
+    <br>
+    <br>
+    <br>
+
+    <!-- Service Section -->
+
+    <section class="text-primary body-font">
+      <div class="flex flex-col w-1/2 ml-6 xl:ml-44">
+        <p class="text-sm font-normal">OUR SERVICES_____________</p>
+        <h2 class="text-4xl font-medium text-primary">WHAT WE OFFER</h2>
+      </div>
+      <div class="container px-5 py-6 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="h-full bg-white flex flex-col justify-center bg-opacity-75 px-8 pt-14 pb-14 rounded-lg overflow-hidden text-center relative">
+              <div class="flex shadow-sm-light rounded-md p-2">
+                <div class="  flex-col  justify-center  bg-white flex place-items-center">
+                  <div class="border-slate-300 border flex h-24 w-24 rounded-full justify-center items-center my-2">
+                    <img class="h-10 w-10 " src="./images/cup.png" alt="" />
+                  </div>
+
+                  <img class=" opacity-[20%]" src="./images/Vector 2.svg" alt="" />
+                  <h1 class="mt-5 text-lg font-semibold ">INVESTMENT BANKING</h1>
+                  <h6 class="text-center text-sm font-normal mt-5 mx-5">Make your money work smarter with investment
+                    banking -
+                    invest today and reap the rewards
+                    tomorrow!</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="h-full bg-white flex flex-col justify-center bg-opacity-75 px-8 pt-14 pb-14 rounded-lg overflow-hidden text-center relative">
+              <div class="flex shadow-sm-light rounded-md p-2">
+                <div class="  flex-col  justify-center  bg-white flex place-items-center">
+                  <div class="border-slate-300 border flex h-24 w-24 rounded-full justify-center items-center my-2">
+                    <img class="h-10 w-10 " src="./images/scale.png" alt="" />
+                  </div>
+
+                  <img class=" opacity-[20%]" src="./images/Vector 2.svg" alt="" />
+                  <h1 class="mt-5 text-lg font-semibold ">WEALTH MANAGEMENT</h1>
+                  <h6 class="text-center text-sm font-normal mt-5 mx-5">Secure your future with smart wealth management:
+                    Save, Invest and Grow responsibly.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3">
+            <div
+              class="h-full bg-white flex flex-col justify-center bg-opacity-75 px-8 pt-14 pb-14 rounded-lg overflow-hidden text-center relative">
+              <div class="flex shadow-sm-light rounded-md p-2">
+                <div class="  flex-col  justify-center  bg-white flex place-items-center">
+                  <div class="border-slate-300 border flex h-24 w-24 rounded-full justify-center items-center my-2">
+                    <img class="h-10 w-10 " src="./images/chart-histogram 1.png" alt="" />
+                  </div>
+
+                  <img class=" opacity-[20%]" src="./images/Vector 2.svg" alt="" />
+                  <h1 class="mt-5 text-lg font-semibold ">IINANCIAL PLANNING</h1>
+                  <h6 class="text-center text-sm font-normal mt-5 mx-5">Maximize your money with smart financial
+                    planning - Get organized, invest for the future!</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Service Section -->
+    <div class="my-32"></div>
+    <!-- About Section -->
+    <div
+      class="relative text-primary w-screen  bg-white body-font flex  lg:flex-row  flex-col rounded-xl bg-clip-border">
+      <div
+        class="relative m-0 xl:w-[48vmax] xl:h-[24vmax] lg:w-[38vmax] lg:h-full  w-full shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+        <img src="./images/why.png" alt="image" class="h-full w-full object-cover" />
+      </div>
+      <div class="md:px-24 md:py-12 py-6 px-6">
+        <div class="flex flex-col mb-4">
+          <p class="text-sm font-normal">BEST IN TOWN_____________</p>
+          <h2 class="text-4xl font-medium text-primary">WHY CHOOSE US</h2>
+        </div>
+        <p class="mb-8 block font-normal leading-relaxed antialiased max-w-lg">
+          Here are some testimonials from our user after using Spend. <br> In to manage their business expenses.
+        </p>
+        <div class="mb-6">
+          <p class="text-sm font-normal">FINANCIAL ANALYSIS</p>
+          <div
+            class="flex-start flex h-1.5 w-full overflow-hidden rounded-lg font-sans text-xs font-medium border-b border-gray-900 border-opacity-5">
+            <div
+              class="flex h-full items-baseline justify-center overflow-hidden rounded-lg break-all bg-gray-300 text-white"
+              style="width: 95%;"></div>
+          </div>
+        </div>
+        <div class="mb-6">
+          <p class="text-sm font-normal">INVESTMENT</p>
+          <div
+            class="flex-start flex h-1.5 w-full overflow-hidden rounded-lg font-sans text-xs font-medium border-b border-primary border-opacity-5">
+            <div
+              class="flex h-full items-baseline justify-center overflow-hidden rounded-lg break-all bg-gray-300 text-white"
+              style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="text-primary mb-6">
+          <p class="text-sm font-normal">FINANCIAL PLANNING</p>
+          <div
+            class="flex-start flex h-1.5 w-full overflow-hidden rounded-lg font-sans text-xs font-medium border-b border-primary border-opacity-5">
+            <div
+              class="flex h-full items-baseline justify-center overflow-hidden rounded-lg break-all bg-primary text-white"
+              style="width: 50%;"></div>
+          </div>
+        </div>
+        <div class="mb-6">
+          <p class="text-sm font-normal">BUSINESS SUPPORT</p>
+          <div
+            class="flex-start flex h-1.5 w-full overflow-hidden rounded-lg font-sans text-xs font-medium border-b border-primary border-opacity-5">
+            <div
+              class="flex h-full items-baseline justify-center overflow-hidden rounded-lg break-all bg-gray-300 text-white"
+              style="width: 95%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="my-32"></div>
+    <!-- Team Section -->
+
+
+    <section class="">
+      <div class="mx-auto max-w-full xl:px-52 py-16 px-12 sm:px-12 sm:py-24 lg:me-0 lg:pe-0 lg:ps-8">
+        <div class="max-w-full items-end justify-between lg:px-6 sm:flex sm:pe-6 lg:pe-8">
+          <div class="flex flex-col mb-4">
+            <p class="text-sm font-normal">MEET OUR_______________________</p>
+            <h2 class="text-4xl font-medium text-primary">PROFESSIONAL TEAM</h2>
+          </div>
+
+          <div class="mt-8 flex gap-4 lg:mt-0">
+            <button
+              class="prev-button rounded-full border border-secondary  p-3 bg-transparent hover:bg-secondary hover:text-white text-secondary">
+              <span class="sr-only">Previous Slide</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-5 w-5 rtl:rotate-180">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+            </button>
+
+            <button
+              class="next-button rounded-full border border-secondary  p-3 bg-secondary hover:bg-pink-600 text-white">
+              <span class="sr-only">Next Slide</span>
+              <svg class="h-5 w-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="-mx-6 mt-8 lg:col-span-4 lg:mx-0">
+          <div class="swiper-container !overflow-hidden">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+
+                  <div
+                    class="mr-5  text-slate-700 h-[354px] w-[344px] flex-col  justify-center  bg-white selection:rounded-md flex place-items-center">
+                    <div class="border-slate-300 flex h-64 w-80 mt-10 justify-center items-center my-5">
+                      <img class="" src="./images/founder.svg" alt="" />
+                    </div>
+
+                    <img class="w-[80px] h-0 opacity-[20%]" src="./images/Vector 2.svg" alt="" />
+                    <h1 class="-mt-10 text-base text-primary font-bold ">SAKIR YAVUZ</h1>
+                    <h6 class="text-center text-primary text-sm mt-2 mx-5">Founder $ President</h6>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+                  <div
+                    class="mr-5 h-[354px] w-[344px]  text-slate-700  flex-col  justify-center  bg-white selection:rounded-md flex place-items-center">
+                    <div class="border-slate-300  flex h-24 w-24 rounded-full justify-center items-center my-5">
+                      <img class=" " src="./images/rector.svg" alt="" />
+                    </div>
+
+                    <img class="w-[80px] h-0 opacity-[20%]" src="./images/Vector 2.svg" alt="" />
+                    <h1 class="mt-5 text-base font-bold ">ANDREAS GLEISENSTEIN</h1>
+                    <p>Chief Executive Officer </p>
+                    <h6 class="text-center text-sm mt-5 mx-5">Here are some testimonials from our user after using
+                      Spend.In to manage their business expenses.</h6>
+                    <div class="flex mt-5 lg:mt-5  items-center space-x-6">
+                      <a href="#"><img src="images/Instagram.png" alt=" Instagram logo" class="w-4 "></a>
+                      <a href="#"><img src="images/Twitter.png" alt=" Twitter logo" class="w-4"></a>
+                      <a href="#"><img src="images/Facebook.png" alt=" Facebook logo" class="w-4"></a>
+                      <a href="#"><img src="images/LinkedIN.png" alt=" LinkedIN logo" class="w-4"></a>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+                  <div
+                    class="mr-5 h-[354px] w-[344px]  text-slate-700  flex-col  justify-center  bg-white selection:rounded-md flex place-items-center">
+                    <div class="border-slate-300  flex h-24 w-24 rounded-full justify-center items-center my-5">
+                      <img class=" " src="./images/rector.svg" alt="" />
+                    </div>
+
+                    <img class="w-[80px] h-0 opacity-[20%]" src="./images/Vector 2.svg" alt="" />
+                    <h1 class="mt-5 text-base font-bold ">ANDREAS GLEISENSTEIN</h1>
+                    <p>Chief Executive Officer </p>
+                    <h6 class="text-center text-sm mt-5 mx-5">Here are some testimonials from our user after using
+                      Spend.In to manage their business expenses.</h6>
+                    <div class="flex mt-5 lg:mt-5  items-center space-x-6">
+                      <a href="#"><img src="images/Instagram.png" alt=" Instagram logo" class="w-4 "></a>
+                      <a href="#"><img src="images/Twitter.png" alt=" Twitter logo" class="w-4"></a>
+                      <a href="#"><img src="images/Facebook.png" alt=" Facebook logo" class="w-4"></a>
+                      <a href="#"><img src="images/LinkedIN.png" alt=" LinkedIN logo" class="w-4"></a>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <br>
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+                  <div
+                    class="mr-5 h-[354px] w-[344px]  text-slate-700  flex-col  justify-center  bg-white selection:rounded-md flex place-items-center">
+                    <div class="border-slate-300  flex h-24 w-24 rounded-full justify-center items-center my-5">
+                      <img class=" " src="./images/rector.svg" alt="" />
+                    </div>
+
+                    <img class="w-[80px] h-0 opacity-[20%]" src="./images/Vector 2.svg" alt="" />
+                    <h1 class="mt-5 text-base font-bold ">ANDREAS GLEISENSTEIN</h1>
+                    <p>Chief Executive Officer </p>
+                    <h6 class="text-center text-sm mt-5 mx-5">Here are some testimonials from our user after using
+                      Spend.In to manage their business expenses.</h6>
+                    <div class="flex mt-5 lg:mt-5  items-center space-x-6">
+                      <a href="#"><img src="images/Instagram.png" alt=" Instagram logo" class="w-4 "></a>
+                      <a href="#"><img src="images/Twitter.png" alt=" Twitter logo" class="w-4"></a>
+                      <a href="#"><img src="images/Facebook.png" alt=" Facebook logo" class="w-4"></a>
+                      <a href="#"><img src="images/LinkedIN.png" alt=" LinkedIN logo" class="w-4"></a>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <br>
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+                  <div
+                    class="mr-5 h-[354px] w-[344px]  text-slate-700  flex-col  justify-center  bg-white selection:rounded-md flex place-items-center">
+                    <div class="border-slate-300  flex h-24 w-24 rounded-full justify-center items-center my-5">
+                      <img class=" " src="./images/rector.svg" alt="" />
+                    </div>
+
+                    <img class="w-[80px] h-0 opacity-[20%]" src="./images/Vector 2.svg" alt="" />
+                    <h1 class="mt-5 text-base font-bold ">ANDREAS GLEISENSTEIN</h1>
+                    <p>Chief Executive Officer </p>
+                    <h6 class="text-center text-sm mt-5 mx-5">Here are some testimonials from our user after using
+                      Spend.In to manage their business expenses.</h6>
+                    <div class="flex mt-5 lg:mt-5  items-center space-x-6">
+                      <a href="#"><img src="images/Instagram.png" alt=" Instagram logo" class="w-4 "></a>
+                      <a href="#"><img src="images/Twitter.png" alt=" Twitter logo" class="w-4"></a>
+                      <a href="#"><img src="images/Facebook.png" alt=" Facebook logo" class="w-4"></a>
+                      <a href="#"><img src="images/LinkedIN.png" alt=" LinkedIN logo" class="w-4"></a>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <div class="my-12"></div>
+
+    <!-- Statistic Section -->
+    <div class="bg-primary">
+      <div class="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
+        <div class="grid grid-cols-1 row-gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div class="text-left">
+            <div class="flex mt-5 lg:mt-5 justify-center items-center space-x-6">
+              <img src="images/users.svg" alt=" Instagram logo" class="w-16 ">
+              <img src="images/Line 15.png" alt=" Twitter logo" class="">
+              <div>
+                <h2 class="text-2xl sm:text-xl font-semibold text-white">1900</h2>
+                <p class="text-lg text-white">HAPPY CUSTOMERS</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="text-left">
+            <div class="flex mt-5 lg:mt-5 justify-center items-center space-x-6">
+              <img src="images/file.svg" alt=" Instagram logo" class="w-16 " />
+              <img src="images/Line 15.png" alt=" Twitter logo" class="" />
+              <div>
+                <h2 class="text-2xl font-semibold text-white">967</h2>
+                <p class="text-lg text-white">SUCCESSFUL DEALS</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-left">
+            <div class="flex mt-5 lg:mt-5 justify-center items-center space-x-6">
+              <img src="images/tie.png" alt=" Instagram logo" class="w-16 ">
+              <img src="images/Line 15.png" alt=" Line " class="">
+              <div class="">
+                <h2 class="text-2xl items-start font-semibold text-white">1208</h2>
+                <p class="text-lg text-white">AWARDS EARNED</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Statistic Section -->
+    <div class="my-32"></div>
+
+    <!-- Project Section -->
+    <section id="product" class="">
+      <div class="container w-10/12 mx-auto py-10">
+        <div class="flex flex-col mb-4">
+          <p class="text-sm font-normal">SOME OF OUR_______________________</p>
+          <h2 class="text-4xl font-medium text-primary">FEATURED PRODUCT</h2>
+        </div>
+
+        <div class="grid grid-cols-2 xl:grid-cols-5 md:grid-cols-3 justify-between gap-x-2 md:gap-x-3 mt-10">
+          <div class="shadow-sm rounded-md m-3 relative">
+            <img src="/images/financial.png" alt="">
+            <div class="absolute bottom-0 w-full p-2 py-3 bg-text/50 text-center rounded-b-md">
+              <p class="text-xl md:text-2xl font-semibold text-white">ALL</p>
+            </div>
+          </div>
+          <div class="shadow-sm rounded-md m-3 relative">
+            <img src="/images/financial.png" alt="">
+            <div class="absolute bottom-0 w-full p-2 py-3 bg-text/50 text-center rounded-b-md">
+              <p class="text-xl md:text-2xl font-semibold text-white">INVESTMENT</p>
+            </div>
+          </div>
+          <div class="shadow-sm rounded-md m-3 relative">
+            <img src="/images/taxes.png" alt="">
+            <div class="absolute bottom-0 w-full p-2 py-3 bg-text/50 text-center rounded-b-md">
+              <p class="text-xl md:text-2xl font-semibold text-white">TAXES</p>
+            </div>
+          </div>
+          <div class="shadow-sm rounded-md m-3 relative">
+            <img src="/images/invest.png" alt="">
+            <div class="absolute bottom-0 w-full p-2 py-3 bg-text/50 text-center rounded-b-md">
+              <p class="text-xl md:text-2xl font-semibold text-white">PLANNING</p>
+            </div>
+          </div>
+          <div class="shadow-sm rounded-md m-3 relative">
+            <img src="/images/financial.png" alt="">
+            <div class="absolute bottom-0 w-full p-2 py-3 bg-text/50 text-center rounded-b-md">
+              <p class="text-xl md:text-2xl font-semibold text-white">FINANCIAL</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center space-x-2 py-4">
+          <a href="#">
+            <p class="mt-4 p-2 w-fit rounded-full bg-gray-300 hover:bg-gray-400">
+              <img class="h-6 w-6" src="/images/arrow-left.png" alt="arrow">
+            </p>
+          </a>
+          <a href="#">
+            <p class="mt-4 p-2 w-fit rounded-full bg-secondary">
+              <img class="h-6 w-6" src="/images/arrow-right.png" alt="arrow">
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section -->
+    <div class="my-32"></div>
+
+    <!-- Contact Us -->
+
+    <div class="  ">
+      <div class="flex flex-col w-1/2 ml-6 xl:ml-44 md:ml-24 mb-22 lg:mb-28">
+        <p class="text-sm font-normal">WE ARE ALWAYS READY_____________</p>
+        <h2 class="text-4xl font-medium text-primary">REQUEST A CALL BACK</h2>
+      </div>
+      <div
+        class="mx-auto bg-white mb-20 flex w-full max-w-screen-lg flex-col overflow-hidden rounded-xl text-gray-900 md:flex-row md:border md:shadow-lg">
+        <div class="mt-10 bg-primary px-10 py-8 text-gray-100 md:mt-0 md:ml-auto">
+          <div class="">
+            <p class="font-medium lg:text-3xl text-3xl pb-1px ">Contact Information</p>
+            <p class="mb-6 text-gray-300 text-xl font-light pb-2">Say something to start a live chat!</p>
+            <div class="mb-6 flex h-46 items-center space-x-2">
+              <img class="h-full w-full object-contain" src="/images/map.png" alt="" />
+            </div>
+            <div class="my-10">
+              <a href="#" class="mt-3 flex cursor-pointer items-center">
+                <img class="w-6 h-auto max-w-full align-middle" src="./images/home.png" alt="" />
+                <span class="px-3 text-sm font-light max-w-md">123 Eccles old road, Salford Road,<br>East london, UK, M6
+                  7A4</span>
+              </a>
+
+              <a href="#" class="mt-3 flex cursor-pointer items-center">
+                <img class="h-6 w-auto max-w-full align-middle" src="./images/mail.png" alt="" />
+                <span class="px-3 text-sm font-light">Support@yourdomian.com</span>
+              </a>
+
+              <a href="#" class="mt-3 flex cursor-pointer items-center">
+                <img class="h-6 w-auto max-w-full align-middle" src="./images/phone.png" alt="" />
+                <span class="px-3 text-sm font-light">+44 123 456 789-9</span>
+              </a>
+            </div>
+
+            <div class="flex mt-10 lg:mt-0  items-center space-x-6">
+              <a href="#"><img src="images/Facebook.png" alt=" facebook logo" class="w-5 "></a>
+              <a href="#"><img src="images/Twitter.png" alt=" facebook logo" class="w-5"></a>
+              <a href="#"><img src="images/Instagram.png" alt=" facebook logo" class="w-5"></a>
+              <a href="#"><img src="images/LinkedIN.png" alt=" facebook logo" class="w-5"></a>
+            </div>
+
+
+          </div>
+        </div>
+        <form class="mx-auto w-full max-w-xl border-gray-200 px-10 py-8 md:px-8">
+          <div class="mb-4"><input
+              class="w-full rounded border border-gray-300 px-3 py-2 outline-none ring-blue-500 focus:ring" id="email"
+              type="email" required="" placeholder="First Name" /></div>
+          <div class="mb-4"><input
+              class="w-full rounded border border-gray-300 px-3 py-2 outline-none ring-blue-500 focus:ring" id="subject"
+              type="subject" required="" placeholder="Email" /></div>
+          <div class="mb-4"><input
+              class="w-full rounded border border-gray-300 px-3 py-2 outline-none ring-blue-500 focus:ring" id="subject"
+              type="subject" required="" placeholder="Phone Number" /></div>
+          <label class="inline-block" for="remember-me"> Select Subject?</label>
+
+          <div class="block text-sm mt-3">
+            <input
+              class="ml-2 h-4 w-4 rounded border border-gray-300 bg-contain bg-no-repeat align-top text-black shadow checked:bg-blue-600 focus:border-blue-600 focus:shadow"
+              type="radio" id="remember-me" checked />
+            <label class="inline-block mr-2" for="remember-me"> General Inquiry</label>
+            <input
+              class="ml-2 h-4 w-4 rounded border border-gray-300 bg-contain bg-no-repeat align-top text-black shadow checked:bg-blue-600 focus:border-blue-600 focus:shadow"
+              type="radio" id="remember-me" />
+            <label class="inline-block h-4" for="remember-me"> Plan Inquiry</label>
+            <input
+              class="ml-2 h-4 w-4 rounded border border-gray-300 bg-contain bg-no-repeat align-top text-black shadow checked:bg-blue-600 focus:border-blue-600 focus:shadow"
+              type="radio" id="remember-me" />
+            <label class="inline-block" for="remember-me"> Service Inquiry</label>
+            <input
+              class="ml-2 h-4 w-4 rounded border border-gray-300 bg-contain bg-no-repeat align-top text-black shadow checked:bg-blue-600 focus:border-blue-600 focus:shadow"
+              type="radio" id="remember-me" />
+            <label class="inline-block" for="remember-me"> Business Inquiry</label>
+          </div>
+          <div class="mb-4 mt-3">
+            <textarea class="h-52 w-full rounded border border-gray-300 px-3 py-2 outline-none ring-blue-500 focus:ring"
+              id="message" placeholder="Message" required=""></textarea>
+          </div>
+          <div class="flex items-center">
+            <div class="flex-1"></div>
+            <button class="rounded-xl bg-primary px-4 py-3 text-center font-bold text-white hover:bg-blue-700"
+              type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- / Contact  -->
+    <div class="lg:my-72 my-52"></div>
+
+    <!-- CTA Section -->
+    <section class="text-primary bg-white">
+      <div class="container relative mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="absolute lg:max-w-sm lg:w-full md:w-1/2 left-0 w-5/6 bottom-0">
+          <img class="object-cover object-center block lg:block hidden" alt="hero" src="./images/lady.png">
+        </div>
+        <div class="lg:max-w-sm lg:w-full md:w-3/12">
+
+        </div>
+        <div
+          class="lg:flex-grow  md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div class="flex flex-col mb-8">
+            <p class="text-sm font-normal">WE ARE ALWAYS READY_____________</p>
+            <h2 class="text-4xl font-medium text-primary">SUBSCRIBE TO OUR NEWSLETTER</h2>
+          </div>
+          <div class="flex w-full md:justify-start justify-center items-end">
+            <div class="relative lg:w-full xl:w-1/2 w-2/4">
+              <input type="text" id="hero-field" name="hero-field"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <button
+              class="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-indigo-900 rounded text-lg">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA Section -->
+    <div class="my-32"></div>
+
+    <!-- Trust Section -->
+    <section class="">
+      <div class="mx-auto max-w-full xl:px-52 py-16 px-12 sm:px-12 sm:py-24 lg:me-0 lg:pe-0 lg:ps-8">
+        <div class="max-w-full items-end justify-between lg:px-6 sm:flex sm:pe-6 lg:pe-8">
+          <div class="flex flex-col mb-4">
+            <p class="text-sm font-normal">MEET OUR_______________________</p>
+            <h2 class="text-4xl font-medium text-primary">PROFESSIONAL TEAM</h2>
+          </div>
+
+          <div class="mt-8 flex gap-4 lg:mt-0">
+            <button
+              class="prev-button rounded-full border border-secondary  p-3 bg-transparent hover:bg-secondary hover:text-white text-secondary">
+              <span class="sr-only">Previous Slide</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-5 w-5 rtl:rotate-180">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+            </button>
+
+            <button
+              class="next-button rounded-full border border-secondary  p-3 bg-secondary hover:bg-pink-600 text-white">
+              <span class="sr-only">Next Slide</span>
+              <svg class="h-5 w-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="-mx-6 mt-8 lg:col-span-4 lg:mx-0">
+          <div class="swiper-logo !overflow-hidden">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+
+
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+
+                </blockquote>
+              </div>
+              <br>
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+
+                </blockquote>
+              </div>
+              <br>
+              <div class="swiper-slide">
+                <blockquote class="m-3">
+
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Section -->
+
+
+    <!-- ====== Footer Section Start -->
+    <footer class="relative z-10 bg-primary text-white pt-20 pb-10 md:px-12 lg:pt-[120px] lg:pb-20">
+      <div class="container mx-auto px-6 lg:px-2">
+        <div class="-mx-4 flex md:mx-4 flex-wrap">
+          <div class="w-full md:mx-5 px-4 sm:w-2/3 lg:w-3/12 p-3">
+            <div class="mb-10 w-full">
+
+              <div class="mb-6 flex h-46 items-center space-x-2">
+                <img class="h-full w-full object-contain" src="/images/map.png" alt="" />
+              </div>
+              <p class="font-medium my-4 text-lg ">HEAD OFFICE</p>
+              <div class="my-6">
+                <a href="#" class="mt-3 flex cursor-pointer items-center">
+                  <img class="w-6 h-auto max-w-full align-middle" src="./images/home.png" alt="" />
+                  <span class="px-3 text-sm font-light max-w-md">123 Eccles old road, Salford Road,<br>East london, UK,
+                    M6
+                    7A4</span>
+                </a>
+
+                <a href="#" class="mt-3 flex cursor-pointer items-center">
+                  <img class="h-6 w-auto max-w-full align-middle" src="./images/mail.png" alt="" />
+                  <span class="px-3 text-sm font-light">Support@yourdomian.com</span>
+                </a>
+
+                <a href="#" class="mt-3 flex cursor-pointer items-center">
+                  <img class="h-6 w-auto max-w-full align-middle" src="./images/phone.png" alt="" />
+                  <span class="px-3 text-sm font-light">+44 123 456 789-9</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="w-full px-4 sm:w-1/2 lg:w-2/12">
+            <div class="mb-10 w-full">
+              <h4 class="text-dark  text-lg font-semibold">Useful Links</h4>
+              <img class="h-auto w-auto max-w-full align-middle mb-4" src="./images/Divider.png" alt="" />
+
+              <ul>
+                <li class="flex items-center flex-wrap flex-row">
+                  <img class="h-6 w-auto max-w-full align-middle" src="./images/cheveron-right.png" alt="" />
+                  <a href="javascript:void(0)"
+                    class="text-body-color hover:text-gray-100 inline-block text-sm leading-loose">
+                    Wealth Planning
+                  </a>
+
+                </li>
+                <img class="h-auto w-auto max-w-full align-middle mb-2 py-2" src="./images/Divider.png" alt="" />
+
+                <li class="flex items-center flex-wrap flex-row">
+                  <img class="h-6 w-auto max-w-full align-middle" src="./images/cheveron-right.png" alt="" />
+                  <a href="javascript:void(0)"
+                    class="text-body-color hover:text-gray-100 inline-block text-sm leading-loose">
+                    Investment Management
+                  </a>
+
+                </li>
+                <img class="h-auto w-auto max-w-full align-middle mb-2 py-2" src="./images/Divider.png" alt="" />
+                <li class="flex items-center flex-wrap flex-row">
+                  <img class="h-6 w-auto max-w-full align-middle" src="./images/cheveron-right.png" alt="" />
+                  <a href="javascript:void(0)"
+                    class="text-body-color hover:text-gray-100 inline-block  text-sm leading-loose">
+                    Year-End Tax Planning
+                  </a>
+
+                </li>
+                <img class="h-auto w-auto max-w-full align-middle mb-2 py-2" src="./images/Divider.png" alt="" />
+                <li class="flex items-center flex-wrap flex-row">
+                  <img class="h-6 w-auto max-w-full align-middle" src="./images/cheveron-right.png" alt="" />
+                  <a href="javascript:void(0)"
+                    class="text-body-color hover:text-gray-100 inline-block  text-sm leading-loose">
+                    Tax Advisory Services
+                  </a>
+
+                </li>
+                <img class="h-auto w-auto max-w-full align-middle mb-2 py-2" src="./images/Divider.png" alt="" />
+                <li class="flex items-center flex-wrap flex-row">
+                  <img class="h-6 w-auto max-w-full align-middle" src="./images/cheveron-right.png" alt="" />
+                  <a href="javascript:void(0)"
+                    class="text-body-color hover:text-gray-100 inline-block  text-sm leading-loose">
+                    Small Business Taxes
+                  </a>
+
+                </li>
+                <img class="h-auto w-auto max-w-full align-middle mb-2 py-2" src="./images/Divider.png" alt="" />
+
+              </ul>
+            </div>
+          </div>
+          <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
+            <div class="mb-10 w-full">
+              <h4 class="text-dark text-lg font-semibold">RECENT NEWS</h4>
+              <img class="h-auto w-auto max-w-full align-middle mb-4" src="./images/Divider.png" alt="" />
+
+              <ul>
+                <li>
+                  <a href="#" class="mt-5 flex cursor-pointer items-center">
+                    <img class="h-10 w-auto max-w-full align-middle" src="./images/date.png" alt="" />
+                    <span class="px-3 text-sm">Need more effort to pay manually one by
+                      one,...</span>
+
+                  </a>
+                  <div class="flex cursor-pointer items-center ml-14">
+                    <img class="h-3 w-auto max-w-full align-middle" src="./images/clock-three 1.png" alt="" />
+                    <span class="ml-3 text-sm">24 minutes ago</span>
+                  </div>
+
+                </li>
+                <img class="h-auto w-auto max-w-full align-middle mb-2 py-2" src="./images/Divider.png" alt="" />
+
+                <li>
+                  <a href="#" class="mt-5 flex cursor-pointer items-center">
+                    <img class="h-10 w-auto max-w-full align-middle" src="./images/date.png" alt="" />
+                    <span class="px-3 text-sm">Need more effort to pay manually one by
+                      one,...</span>
+
+                  </a>
+                  <div class="flex cursor-pointer items-center ml-14">
+                    <img class="h-3 w-auto max-w-full align-middle" src="./images/clock-three 1.png" alt="" />
+                    <span class="ml-3 text-sm">24 minutes ago</span>
+                  </div>
+
+                </li>
+                <img class="h-auto w-auto max-w-full align-middle mb-2 py-2" src="./images/Divider.png" alt="" />
+
+                <li>
+                  <a href="#" class="mt-5 flex cursor-pointer items-center">
+                    <img class="h-10 w-auto max-w-full align-middle" src="./images/date.png" alt="" />
+                    <span class="px-3 text-sm">Need more effort to pay manually one by
+                      one,...</span>
+
+                  </a>
+                  <div class="flex cursor-pointer items-center ml-14">
+                    <img class="h-3 w-auto max-w-full align-middle" src="./images/clock-three 1.png" alt="" />
+                    <span class="ml-3 text-sm">24 minutes ago</span>
+                  </div>
+
+                </li>
+                <img class="h-auto w-auto max-w-full align-middle mb-2 py-2" src="./images/Divider.png" alt="" />
+                
+              </ul>
+            </div>
+          </div>
+          <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
+            <div class="mb-10 w-full">
+              <h4 class="text-dark text-lg font-semibold">FLICKR WIDGET</h4>
+              <img class="h-auto w-auto max-w-full align-middle mb-4" src="./images/Divider.png" alt="" />
+              <div class="gird grid-cols-5 grid-rows-2 gap-4">
+                <img src="./images/footer.png" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
+            <div class="mb-10 w-full">
+              <h4 class="text-dark mb-9 text-lg font-semibold">Follow Us On</h4>
+              <div class="mb-6 flex items-center">
+                <a href="javascript:void(0)"
+                  class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4">
+                  <svg width="8" height="16" viewBox="0 0 8 16" class="fill-current">
+                    <path
+                      d="M7.43902 6.4H6.19918H5.75639V5.88387V4.28387V3.76774H6.19918H7.12906C7.3726 3.76774 7.57186 3.56129 7.57186 3.25161V0.516129C7.57186 0.232258 7.39474 0 7.12906 0H5.51285C3.76379 0 2.54609 1.44516 2.54609 3.5871V5.83226V6.34839H2.10329H0.597778C0.287819 6.34839 0 6.63226 0 7.04516V8.90323C0 9.26452 0.243539 9.6 0.597778 9.6H2.05902H2.50181V10.1161V15.3032C2.50181 15.6645 2.74535 16 3.09959 16H5.18075C5.31359 16 5.42429 15.9226 5.51285 15.8194C5.60141 15.7161 5.66783 15.5355 5.66783 15.3806V10.1419V9.62581H6.13276H7.12906C7.41688 9.62581 7.63828 9.41935 7.68256 9.10968V9.08387V9.05806L7.99252 7.27742C8.01466 7.09677 7.99252 6.89032 7.85968 6.68387C7.8154 6.55484 7.61614 6.42581 7.43902 6.4Z" />
+                  </svg>
+                </a>
+                <a href="javascript:void(0)"
+                  class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4">
+                  <svg width="16" height="12" viewBox="0 0 16 12" class="fill-current">
+                    <path
+                      d="M14.2194 2.06654L15.2 0.939335C15.4839 0.634051 15.5613 0.399217 15.5871 0.2818C14.8129 0.704501 14.0903 0.845401 13.6258 0.845401H13.4452L13.3419 0.751468C12.7226 0.258317 11.9484 0 11.1226 0C9.31613 0 7.89677 1.36204 7.89677 2.93542C7.89677 3.02935 7.89677 3.17025 7.92258 3.26419L8 3.73386L7.45806 3.71037C4.15484 3.61644 1.44516 1.03327 1.00645 0.587084C0.283871 1.76125 0.696774 2.88845 1.13548 3.59296L2.0129 4.90802L0.619355 4.20352C0.645161 5.18982 1.05806 5.96477 1.85806 6.52838L2.55484 6.99804L1.85806 7.25636C2.29677 8.45401 3.27742 8.94716 4 9.13503L4.95484 9.36986L4.05161 9.93346C2.60645 10.8728 0.8 10.8024 0 10.7319C1.62581 11.7652 3.56129 12 4.90323 12C5.90968 12 6.65806 11.9061 6.83871 11.8356C14.0645 10.2857 14.4 4.41487 14.4 3.2407V3.07632L14.5548 2.98239C15.4323 2.23092 15.7935 1.8317 16 1.59687C15.9226 1.62035 15.8194 1.66732 15.7161 1.6908L14.2194 2.06654Z" />
+                  </svg>
+                </a>
+                <a href="javascript:void(0)"
+                  class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4">
+                  <svg width="16" height="12" viewBox="0 0 16 12" class="fill-current">
+                    <path
+                      d="M15.6645 1.88018C15.4839 1.13364 14.9419 0.552995 14.2452 0.359447C13.0065 6.59222e-08 8 0 8 0C8 0 2.99355 6.59222e-08 1.75484 0.359447C1.05806 0.552995 0.516129 1.13364 0.335484 1.88018C0 3.23502 0 6 0 6C0 6 0 8.79263 0.335484 10.1198C0.516129 10.8664 1.05806 11.447 1.75484 11.6406C2.99355 12 8 12 8 12C8 12 13.0065 12 14.2452 11.6406C14.9419 11.447 15.4839 10.8664 15.6645 10.1198C16 8.79263 16 6 16 6C16 6 16 3.23502 15.6645 1.88018ZM6.4 8.57143V3.42857L10.5548 6L6.4 8.57143Z" />
+                  </svg>
+                </a>
+                <a href="javascript:void(0)"
+                  class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4">
+                  <svg width="14" height="14" viewBox="0 0 14 14" class="fill-current">
+                    <path
+                      d="M13.0214 0H1.02084C0.453707 0 0 0.451613 0 1.01613V12.9839C0 13.5258 0.453707 14 1.02084 14H12.976C13.5432 14 13.9969 13.5484 13.9969 12.9839V0.993548C14.0422 0.451613 13.5885 0 13.0214 0ZM4.15142 11.9H2.08705V5.23871H4.15142V11.9ZM3.10789 4.3129C2.42733 4.3129 1.90557 3.77097 1.90557 3.11613C1.90557 2.46129 2.45002 1.91935 3.10789 1.91935C3.76577 1.91935 4.31022 2.46129 4.31022 3.11613C4.31022 3.77097 3.81114 4.3129 3.10789 4.3129ZM11.9779 11.9H9.9135V8.67097C9.9135 7.90323 9.89082 6.8871 8.82461 6.8871C7.73571 6.8871 7.57691 7.74516 7.57691 8.60323V11.9H5.51254V5.23871H7.53154V6.16452H7.55423C7.84914 5.62258 8.50701 5.08065 9.52785 5.08065C11.6376 5.08065 12.0232 6.43548 12.0232 8.2871V11.9H11.9779Z" />
+                  </svg>
+                </a>
+              </div>
+              <p class="text-body-color text-base">&copy; 2025 TailGrids</p>
+            </div>
+          </div> -->
+        </div>
+        <img class="h-auto w-full max-w-full align-middle mb-2 py-2" src="./images/Divider.png" alt="" />
+
+        <div class="-mx-4 flex md:mx-4 w-full flex-wrap lg:flex-row flex-col items-center justify-between px-4">
+         
+            <div class="flex lg:space-x-6 md:px-5 flex-row text-center">
+                <p class="font-regular text-[18px] leading-2">Privacy Policy &nbsp;|</p>
+                <p class="font-regular text-[18px] leading-2">Terms & Conditions &nbsp;|</p>
+                <p class="font-regular text-[18px] leading-2">Cookies Policy</p>
+
+            </div>
+            <div class="flex mt-10 lg:mt-0  items-center space-x-6">
+                <a href="#"><img src="images/Facebook.png" alt=" facebook logo" class="w-6 "></a>
+                <a href="#"><img src="images/Twitter.png" alt=" facebook logo" class="w-6"></a>
+                <a href="#"><img src="images/Instagram.png" alt=" facebook logo" class="w-6"></a>
+                <a href="#"><img src="images/LinkedIN.png" alt=" facebook logo" class="w-6"></a>
+            </div>
+      
+        </div>
+
+      </div>
+      <div>
+        <span class="absolute left-0 bottom-0 z-[-1]">
+          <svg width="217" height="229" viewBox="0 0 217 229" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M-64 140.5C-64 62.904 -1.096 1.90666e-05 76.5 1.22829e-05C154.096 5.49924e-06 217 62.904 217 140.5C217 218.096 154.096 281 76.5 281C-1.09598 281 -64 218.096 -64 140.5Z"
+              fill="url(#paint0_linear_1179_5)" />
+            <defs>
+              <linearGradient id="paint0_linear_1179_5" x1="76.5" y1="281" x2="76.5" y2="1.22829e-05"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#3056D3" stop-opacity="0.08" />
+                <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="absolute top-10 right-10 z-[-1]">
+          <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M37.5 -1.63918e-06C58.2107 -2.54447e-06 75 16.7893 75 37.5C75 58.2107 58.2107 75 37.5 75C16.7893 75 -7.33885e-07 58.2107 -1.63918e-06 37.5C-2.54447e-06 16.7893 16.7893 -7.33885e-07 37.5 -1.63918e-06Z"
+              fill="url(#paint0_linear_1179_4)" />
+            <defs>
+              <linearGradient id="paint0_linear_1179_4" x1="-1.63917e-06" y1="37.5" x2="75" y2="37.5"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#13C296" stop-opacity="0.31" />
+                <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+      </div>
+    </footer>
+    <!-- ====== Footer Section End -->
+    
+  </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const swiper = new Swiper('.swiper-container', {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 32,
+        autoplay: {
+          delay: 8000,
+        },
+        navigation: {
+          nextEl: '.next-button',
+          prevEl: '.prev-button',
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1.5,
+            centeredSlides: true,
+            spaceBetween: 30,
+            freeMode: true,
+          },
+          1000: {
+            centeredSlides: false,
+            slidesPerView: 2,
+            spaceBetween: 30,
+            freeMode: true,
+          },
+          1024: {
+            centeredSlides: false,
+            slidesPerView: 3.2,
+            spaceBetween: 30,
+            freeMode: true,
+          },
+        },
+      })
+    })
+      < script >
+      document.addEventListener('DOMContentLoaded', function () {
+        const swiper = new Swiper('.swiper-logo', {
+          loop: true,
+          slidesPerView: 1,
+          spaceBetween: 32,
+          autoplay: {
+            delay: 8000,
+          },
+          navigation: {
+            nextEl: '.next-button',
+            prevEl: '.prev-button',
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 1.5,
+              centeredSlides: true,
+              spaceBetween: 10,
+              freeMode: true,
+            },
+            1000: {
+              centeredSlides: false,
+              slidesPerView: 2,
+              spaceBetween: 10,
+              freeMode: true,
+            },
+            1024: {
+              centeredSlides: false,
+              slidesPerView: 3.2,
+              spaceBetween: 10,
+              freeMode: true,
+            },
+          },
+        })
+      })
+  </script>
+</body>
+
+</html>

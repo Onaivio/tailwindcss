@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'flowbite';
+
+.debug{
+    border: 1px red solid;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
